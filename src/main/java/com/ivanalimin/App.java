@@ -11,6 +11,5 @@ public class App {
         SomeEntity someEntity = new SomeEntity(LocalDateTime.now());
         String s = mapper.writeValueAsString(someEntity);
         System.out.println(s);
-
     }
 }
